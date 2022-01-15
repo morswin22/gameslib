@@ -1,0 +1,5 @@
+#!/bin/bash
+cd build
+cmake ..
+make && sudo ./examples/snake/snake
+cd ..
